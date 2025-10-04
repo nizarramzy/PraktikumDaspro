@@ -10,24 +10,39 @@ public class switchCaseKRS22 {
         System.out.print("Masukkan semester saat ini: ");
         int semester = sc.nextInt();
 
-        if (semester == 1) {
-            System.out.println("KRS Semester 1 ditampilkan");
-        } else if (semester == 2) {
-            System.out.println("KRS Semester 2 ditampilkan");
-        } else if (semester == 3) {
-            System.out.println("KRS Semester 3 ditampilkan");
-        } else if (semester == 4) {
-            System.out.println("KRS Semester 4 ditampilkan");
-        } else if (semester == 5) {
-            System.out.println("KRS Semester 5 ditampilkan");
-        } else if (semester == 6) {
-            System.out.println("KRS Semester 6 ditampilkan");
-        } else if (semester == 7) {
-            System.out.println("KRS Semester 7 ditampilkan");
-        } else if (semester == 8) {
-            System.out.println("KRS Semester 8 ditampilkan");
-        } else {
-            System.out.println("Semester tidak valid");
-        }
+        switch (semester) {
+            case 1:
+                System.out.println("KRS Semester 1 ditampilkan");
+                break;
+            case 2:
+                System.out.println("KRS Semester 2 ditampilkan");
+                break;
+            case 3:
+                System.out.println("KRS Semester 3 ditampilkan");
+                break;
+            case 4:
+                System.out.println("KRS Semester 4 ditampilkan");
+                break;
+            case 5:
+                System.out.println("KRS Semester 5 ditampilkan");
+                break;
+            case 6:
+                System.out.println("KRS Semester 6 ditampilkan");
+                break;
+            case 7:
+                System.out.println("KRS Semester 7 ditampilkan");
+                break;
+            case 8:
+                System.out.println("KRS Semester 8 ditampilkan");
+                break;
+            default:
+                System.out.println("Semester tidak valid"); 
+
+        }   
     }
+
+    
+
+    
+    
 }
