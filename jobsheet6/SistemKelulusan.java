@@ -11,6 +11,7 @@ public class SistemKelulusan {
         System.out.print("Masukkan NIM: ");
         int NIM = sc.nextInt();
 
+//matkul 1
         System.out.println("--- Mata Kuliah 1: Algoritma dan Pemrograman ---");
         System.out.print("Masukkan Nilai UTS: ");
         double UTS1 = sc.nextDouble();
@@ -46,7 +47,7 @@ public class SistemKelulusan {
             Huruf1 = "E";
         }
         
-
+//Matkul 2
         System.out.println("--- Mata Kuliah 2: Struktur Data ---");
         System.out.print("Masukkan Nilai UTS: ");
         double UTS2 = sc.nextDouble();
