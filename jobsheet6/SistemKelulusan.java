@@ -103,10 +103,8 @@ public class SistemKelulusan {
         System.out.println();
         System.out.println("Mata Kuliah\t\tUTS\tUAS\tTugas\tNilai Akhir\tNilai Huruf\tStatus");
         System.out.println("---------------------------------------------------------------------------");
-        System.out.println("Algoritma Pemrograman\t" + UTS1 + "\t" + UAS1 + "\t" + Tugas1 + "\t" +
-                           String.format("%.2f", NilaiAkhir1) + "\t\t" + Huruf1 + "\t\t" + Status1);
-        System.out.println("Struktur Data\t\t" + UTS2 + "\t" + UAS2 + "\t" + Tugas2 + "\t" +
-                           String.format("%.2f", NilaiAkhir2) + "\t\t" + Huruf2 + "\t\t" + Status2);
+        System.out.println("Algoritma Pemrograman\t" + UTS1 + "\t" + UAS1 + "\t" + Tugas1 + "\t" + String.format("%.2f", NilaiAkhir1) + "\t\t" + Huruf1 + "\t\t" + Status1);
+        System.out.println("Struktur Data\t\t" + UTS2 + "\t" + UAS2 + "\t" + Tugas2 + "\t" + String.format("%.2f", NilaiAkhir2) + "\t\t" + Huruf2 + "\t\t" + Status2);
         System.out.println("---------------------------------------------------------------------------");
         System.out.println("Rata-rata Nilai Akhir : " + String.format("%.2f", RataNilai));
         System.out.println("Status Semester       : " + StatusSemester);
