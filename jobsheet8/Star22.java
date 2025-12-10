@@ -12,10 +12,7 @@ public class Star22 {
             System.out.print("*");
     
             
-        }
-            
-        
-        
+        } 
     }
     
 }
